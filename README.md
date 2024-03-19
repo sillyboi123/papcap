@@ -12,7 +12,7 @@ You just need download and install the project using:
 
 sudo su
 
-apt install git && git clone https://github.com/sillyboi123/papcap.git && cd papcap && chmod +x papcap-install.sh && chmod +x papcap-uninstall.sh && ./papcap-install.sh
+apt update && apt install git && git clone https://github.com/sillyboi123/papcap.git && cd papcap && chmod +x papcap-install.sh && chmod +x papcap-uninstall.sh && ./papcap-install.sh
 
 After everything being set and opened, do the following:
 
