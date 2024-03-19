@@ -12,7 +12,7 @@ You just need download and install the project using:
 
 sudo su
 
-apt install git && git clone https://github.com/sillyboi123/papcap.git && cd papcap && chmod +x papcap-install.sh && ./papcap-install.sh
+apt install git && git clone https://github.com/sillyboi123/papcap.git && cd papcap && chmod +x papcap-install.sh && chmod +x papcap-uninstall.sh && ./papcap-install.sh
 
 After everything being set and opened, do the following:
 
@@ -28,6 +28,6 @@ When everything has been done (you got the credentials or something that you wer
 
 That's all, folks!
 
-[UNINSTALL]: COMING SOON!
+#[UNINSTALL]:  Execute the "papcap-uninstall.sh" file as root user using: sudo ./papcap-uninstall.sh
 
 [Git repos used on this project: https://github.com/dfskoll/rp-pppoe]
