@@ -11,3 +11,5 @@ sudo rm /usr/share/man/man8/pppoe-server.8
 sudo rm /usr/share/man/man8/pppoe-sniff.8
 sudo rm /usr/share/man/man8/pppoe-relay.8
 sudo rm /usr/local/sbin/rp-pppoe-server.sh
+sudo apt remove ppp-dev wireshark
+sudo apt autoremove
