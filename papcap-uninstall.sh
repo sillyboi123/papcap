@@ -1,5 +1,5 @@
 #!/bin/bash
-ssudo rm -rf /etc/ppp/plugins/
+sudo rm -rf /etc/ppp/plugins/
 sudo rm /etc/ppp/pppoe-server-options
 sudo rm -rf /usr/share/doc/rp-pppoe-4.0/
 sudo rm -rf /usr/sbin/pppoe-relay
