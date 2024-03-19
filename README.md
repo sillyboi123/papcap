@@ -32,4 +32,7 @@ That's all, folks!
 
 Execute the "papcap-uninstall.sh" file as root user using: sudo ./papcap-uninstall.sh
 
+
+# CREDITS
+
 [Git repos used on this project: https://github.com/dfskoll/rp-pppoe]
