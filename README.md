@@ -28,6 +28,8 @@ When everything has been done (you got the credentials or something that you wer
 
 That's all, folks!
 
-#[UNINSTALL]:  Execute the "papcap-uninstall.sh" file as root user using: sudo ./papcap-uninstall.sh
+# [UNINSTALL]:  
+
+Execute the "papcap-uninstall.sh" file as root user using: sudo ./papcap-uninstall.sh
 
 [Git repos used on this project: https://github.com/dfskoll/rp-pppoe]
