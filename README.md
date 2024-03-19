@@ -22,7 +22,7 @@ Now connect the other side of your Ethernet cable connected on your computer "et
 
 /usr/local/sbin/rp-pppoe-server.sh
 
-Turn the router on and watch the packet capture display on Wireshark the way you want. If you want to get the "pap" filter selected to capture "pap" packets ("pap" credentials packets), you can do this by typing "pap" using the Filter Toolbar that's over the packet capture display on Wireshark and press Enter, after this look at the captures and try to find the capture that may be the credentials;
+Turn the router on and watch the packet capture display using Wireshark the way you want on the eth0 interface. If you want to get the "pap" filter selected to capture "pap" packets ("pap" credentials packets), you can do this by typing "pap" using the Filter Toolbar that's over the packet capture display on Wireshark and press Enter, after this look at the captures and try to find the capture that may be the credentials;
 
 When everything has been done (you got the credentials or something that you were wanting, i hope so), close n' save the Wireshark's packet capture session or just close it. If you poweroff your device the server won't run on the next boot until you execute the command to start the RP-PPPoE Server again (/usr/local/sbin/rp-pppoe-server.sh ), but if you wanna still using your device after finishing, just do what the server said after you started it about how to kill the PID.
 
